@@ -1,0 +1,29 @@
+Задача1
+a = int(input(""))
+b = int(input(""))
+c = int(input(""))
+
+if a == b == c:
+    print("3")
+elif a != b == c or a == b != c or a == c != b:
+    print("2")
+else:
+    print("1")        
+
+
+
+
+Задача2
+a1 = int(input(""))
+a2 = int(input(""))
+b1 = int(input(""))
+b2 = int(input(""))
+
+if a1 == b1 or a2 == b2:
+    print("yes")
+else:
+    print("no") 
+
+
+
+   
